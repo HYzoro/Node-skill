@@ -1,0 +1,2 @@
+this.$nextTick() 这个方法可以延迟到DOM更新之后再执行
+普通方法时dom还未加载完成，所以报错getAttribute of null

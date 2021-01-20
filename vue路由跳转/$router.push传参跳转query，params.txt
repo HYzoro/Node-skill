@@ -1,0 +1,16 @@
+this.$router.push({name:'home',query: {id:'1'}})
+this.$router.push({path:'/home',query: {id:'1'}})
+ 
+// html 取参  $route.query.id
+// script 取参  this.$route.query.id
+ 
+params传参
+ 
+this.$router.push({name:'home',params: {id:'1'}})  // 只能用 name
+ 
+// 路由配置 path: "/home/:id" 或者 path: "/home:id" ,
+// 不配置path ,第一次可请求,刷新页面id会消失
+// 配置path,刷新页面id会保留
+ 
+// html 取参  $route.params.id
+// script 取参  this.$route.params.id

@@ -1,0 +1,4 @@
+这里value得绑定，不然为空值
+
+当我们把v-model中的couponSelected,也就是data里的couponSelected的值赋值为循环的option中的value后
+，那这个option就会被默认选中

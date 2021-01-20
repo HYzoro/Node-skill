@@ -1,0 +1,12 @@
+一、
+	<router-link to=""></router-link>
+	to后面跟path路径
+
+二、
+	this.$router.push({ path:’/user’})
+
+三、
+	this.$router.replace{path：‘/’ }
+
+四、
+	this.$router.go(n)

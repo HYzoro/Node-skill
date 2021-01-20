@@ -1,0 +1,3 @@
+就是get传的都是url和params
+url是请求地址
+params是请求传递的参数
